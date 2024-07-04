@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jordanDev34/users_project/tree/main/github-users%3E/static/css/main.5c6c6c8f.css",
+    "main.js": "/jordanDev34/users_project/tree/main/github-users%3E/static/js/main.791d4847.js",
+    "static/js/453.9b93ca11.chunk.js": "/jordanDev34/users_project/tree/main/github-users%3E/static/js/453.9b93ca11.chunk.js",
+    "index.html": "/jordanDev34/users_project/tree/main/github-users%3E/index.html",
+    "main.5c6c6c8f.css.map": "/jordanDev34/users_project/tree/main/github-users%3E/static/css/main.5c6c6c8f.css.map",
+    "main.791d4847.js.map": "/jordanDev34/users_project/tree/main/github-users%3E/static/js/main.791d4847.js.map",
+    "453.9b93ca11.chunk.js.map": "/jordanDev34/users_project/tree/main/github-users%3E/static/js/453.9b93ca11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c6c6c8f.css",
+    "static/js/main.791d4847.js"
+  ]
+}
