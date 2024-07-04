@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# Projet Utilisateurs GitHub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet est une application web développée avec React et TypeScript, utilisant l'API GitHub pour afficher les informations des utilisateurs et leurs dépôts.
 
-## Available Scripts
+## Technologies utilisées
 
-In the project directory, you can run:
+- **Framework**: React avec TypeScript
+- **CSS Framework**: Tailwind CSS
 
-### `npm start`
+## Fonctionnalités
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+L'application comporte les fonctionnalités suivantes :
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Affichage d'une liste de cartes d'utilisateurs GitHub.
+- Sélection d'un utilisateur pour afficher des informations détaillées dans une grande carte à droite.
+- Affichage du nom, de l'avatar et des dépôts de l'utilisateur sélectionné.
+- Possibilité d'ouvrir les liens des dépôts dans un nouvel onglet.
 
-### `npm test`
+## Déploiement
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Le projet est déployé sur GitHub Pages pour une démonstration en ligne.
 
-### `npm run build`
+[Accéder au projet déployé](https://github.com/jordanDev34/users_project/tree/main/github-users)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instructions pour le développement
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clonez le projet sur votre machine locale :
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/jordanDev34/users_project/tree/main/github-users
+   cd github-users
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Installez les dépendances :
+   ```bash
+   npm install
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Exécution
+Pour démarrer l'application localement :
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Cela lancera l'application en mode développement. Ouvrez http://localhost:3000 dans votre navigateur pour voir l'application.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Personnalisation et Développement
+Vous pouvez modifier le code source dans le répertoire src selon vos besoins. Voici une vue d'ensemble des composants principaux :
 
-## Learn More
+- Header: En-tête de l'application.
+- Footer: Pied de page affichant les informations de copyright.
+- UserList: Liste des utilisateurs GitHub avec leurs cartes.
+- UserDetail: Détails d'un utilisateur sélectionné, y compris ses dépôts.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Contribution
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une pull request pour proposer des améliorations ou des correctifs.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Exemple en image
+Affichage de 10 utilisateurs github sous forme de carte
+
+![Page principale : affichage des 10 cartes d'utilisateurs](./images/image1.png)
+
+Affichage du détail d'une carte lorsque l'on clique dessus
+
+![Page principale : affichage des 10 cartes d'utilisateurs](./images/image2.png)
